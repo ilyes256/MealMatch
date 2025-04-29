@@ -1,0 +1,8 @@
+﻿[build]
+builder = "dockerfile"
+dockerfilePath = "./RestaurantsApi/Dockerfile"
+
+[deploy]
+startCommand = "./RailwayDeploymentAot"
+restartPolicyType = "always"
+healthcheckPath = "/health"

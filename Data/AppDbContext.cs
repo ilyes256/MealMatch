@@ -20,7 +20,8 @@ namespace RestaurantsApi.Data
             if (!optionsBuilder.IsConfigured)
             {
                 // Only used during migrations
-                optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=restaurants;Username=postgres;Password=password123");
+                optionsBuilder.UseNpgsql("Host=dpg-d084rvvdiees738thoe0-a.oregon-postgres.render.com;Port=5432;Database=my_restaurant_db_3ewt;Username=my_restaurant_db_3ewt_user;Password=VVMS5vBzRTErm9UkpsqvCwObMsUuq9xD;SSL Mode=Require;Trust Server Certificate=true;");
+
             }
         }
     }
